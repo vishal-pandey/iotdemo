@@ -1,0 +1,13 @@
+<section class="container">
+	<div class="controls">
+		<h2>Controls</h2>
+	</div>
+	<div *ngIf="status">
+		<button mat-raised-button (click)="lighton()" disabled="true">On</button>
+		<button mat-raised-button (click)="lightoff()">Off</button>
+	</div>
+	<div *ngIf="!status">
+		<button mat-raised-button (click)="lighton()">On</button>
+		<button mat-raised-button (click)="lightoff()" disabled="true">Off</button>
+	</div>
+</section>
