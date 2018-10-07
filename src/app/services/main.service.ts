@@ -9,14 +9,14 @@ export class MainService {
   constructor(public http:HttpClient) { }
 
   check(){
-  	return this.http.get("http://iot.vishalpandey.xyz/");
+  	return this.http.get("https://iot.vishalpandey.xyz/");
   }
 
   lighton(){
-  	return this.http.get("http://iot.vishalpandey.xyz/on.php");
+  	return this.http.get("https://iot.vishalpandey.xyz/on.php");
   }
   lightoff(){
-  	return this.http.get("http://iot.vishalpandey.xyz/off.php");
+  	return this.http.get("https://iot.vishalpandey.xyz/off.php");
   }
 
 }
