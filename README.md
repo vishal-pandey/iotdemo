@@ -1,11 +1,9 @@
-# Vishal
+# Demo of the Working of IOT
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
-
-## Command to enable server side rendering with angular universal
-* first clone this repository
-* then run npm install
-* and then Run
-* ng add @ng-toolkit/universal
-* npm run build:prod
-* npm run server
+## Steps to build this project on your local maching
+* Get a latest version of node and npm
+* Install angular using npm **install -g @angular/cli**
+* Clone this repository to your compouter using **git clone https://github.com/vishal-pandey/iotdemo.git**
+* Move into the cloned directory **cd iotdemo**
+* Pull the required packages by running **npm install**
+* Run the project using angular command **ng serve**
