@@ -7,3 +7,6 @@
 * Move into the cloned directory **cd iotdemo**
 * Pull the required packages by running **npm install**
 * Run the project using angular command **ng serve**
+
+
+This repository contains the code of an old implementation with html protocol with angular front end. For mqtt based implementation visit https://github.com/vishal-pandey/iot-dashboard/
